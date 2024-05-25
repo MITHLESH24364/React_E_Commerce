@@ -10,7 +10,7 @@ A Ecommerce Website made with React.js
 
 ## Live Demo
 <a href ="https://react-e-commerce-mks.netlify.app/">
- <button  className="btn btn-danger">Log Out</button></a>
+ <button  className="btn">Live Demo</button></a>
 
 
 
