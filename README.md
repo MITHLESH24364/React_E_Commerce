@@ -9,8 +9,9 @@ A Ecommerce Website made with React.js
 
 
 ## Live Demo
+<a href ="https://react-e-commerce-mks.netlify.app/">
+ <button  className="btn btn-danger">Log Out</button></a>
 
-[![Live Demo](https://img.shields.io/badge/demo-React%20E-Commerce-blue)](https://react-e-commerce-mks.netlify.app/)
 
 
 
