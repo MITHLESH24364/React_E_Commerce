@@ -15,6 +15,8 @@ A Ecommerce Website made with React.js
 
  https://react-e-commerce-mks.netlify.app/
 
+email: admin@gmail.com
+password: admin
 
 
 
