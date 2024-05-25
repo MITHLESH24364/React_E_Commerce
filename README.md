@@ -1,3 +1,4 @@
+import from './index.css'
 # E-Commerce Website
 
 A Ecommerce Website made with React.js 
@@ -10,7 +11,7 @@ A Ecommerce Website made with React.js
 
 ## Live Demo
 <a href ="https://react-e-commerce-mks.netlify.app/">
- <button  className="btn">Live Demo</button></a>
+ <button>Live Demo</button></a>
 
 
 
