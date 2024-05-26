@@ -9,13 +9,14 @@ const ContactPage = () => {
         <hr />
         <div class="row my-4 h-100">
           <div className="col-md-4 col-lg-4 col-sm-8 mx-auto">
-            <form>
+            <form name="fileForm" enctype="multipart/form-data" data-netlify="true">
               <div class="form my-3">
                 <label for="Name">Name</label>
                 <input
-                  type="email"
+                  type="text"
                   class="form-control"
-                  id="Name"
+                  id="name"
+                  name="name"
                   placeholder="Enter your name"
                 />
               </div>
@@ -24,16 +25,18 @@ const ContactPage = () => {
                 <input
                   type="email"
                   class="form-control"
-                  id="Email"
+                  id="email"
+                  name="email"
                   placeholder="name@example.com"
                 />
               </div>
               <div class="form  my-3">
-                <label for="Password">Message</label>
+                <label for="Message">Message</label>
                 <textarea
                   rows={5}
                   class="form-control"
-                  id="Password"
+                  id="message"
+                  name="message"
                   placeholder="Enter your message"
                 />
               </div>
@@ -41,7 +44,6 @@ const ContactPage = () => {
                 <button
                   class="my-2 px-4 mx-auto btn btn-dark"
                   type="submit"
-                  disabled
                 >
                   Send
                 </button>
